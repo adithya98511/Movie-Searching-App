@@ -46,7 +46,7 @@ const App1 = () => {
         <div className="container">
           {movies.map((movie) => (
             // add each movie to a movie card and display.
-            <MovieCard movie={movie} />
+            <MovieItem movie={movie} />
           ))}
         </div>
       ) : (
